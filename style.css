@@ -6,7 +6,18 @@ h1 {
     color: white;
     padding: 0 20px;
     margin: auto;
+}
 
+button {
+    background-color: rgb(184, 184, 184);
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-width: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    
 }
 
 .content { 
@@ -16,7 +27,7 @@ h1 {
 }
 
 .container {
-    background: rgb(114, 114, 114);
+    background: rgb(163, 162, 162);
     margin: 80px 80px;
     flex-direction: column;
     display: flex;
@@ -29,7 +40,7 @@ h1 {
 
 body {
     margin: auto;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(184, 184, 184);
 }
 
 .row {
