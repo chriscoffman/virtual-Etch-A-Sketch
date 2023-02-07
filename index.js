@@ -23,9 +23,9 @@ function hoverChangeColor(element) {
 function selectGridSize() {
     let size = prompt("Please select grid size, no larger than 100", 16);
     size = parseInt(size);
-    if (isNaN(size)) {
+    if (isNaN(size) || size > 100 || size < 0) {
         selectGridSize();
-    }
+    } 
     clearGrid();
     createGrid(size);
 }
